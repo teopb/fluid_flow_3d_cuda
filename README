@@ -1,4 +1,12 @@
-Hopefully this should just work.
+Graphics
+Final Project
+Teo Price-Broncucia
+
+This code builds heavily on work by Jos Stam in his 2003 paper "Real-Time Fluid
+Dynamics for Games"
+
+It also includes and relies on code provided as part of the CS 5229 by Willem
+Schreuder.
 
 Call make.
 
