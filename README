@@ -1,0 +1,17 @@
+Hopefully this should just work.
+
+Call make.
+
+Run smoke_display
+
+Can use arrow keys to spin around.
+
++/- to zoom in and out.
+
+Press s to release additional smoke.
+
+This is currently set up with 64^3 grid cells. So roughly 250,000. It runs using CUDA.
+
+It definitely has some smoky qualities. But it is quite sensitive to tuning of the parameters so one of the things I still have to work on is improving the choice of those settings. I also am not quite sure if the velocity advection is working correctly. It seems to be more diffusive than swirly. In the 2d version I made it had very clear paths. Very open to suggestions here.
+
+The idea of this approach is to backsolve for the location of particles densities that will end up in a given location. The motivation of this approach is stability; ie the simulation should remain stable. Also it should give nice fluid effects. 
